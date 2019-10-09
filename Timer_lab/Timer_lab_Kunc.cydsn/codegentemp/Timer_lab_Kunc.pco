@@ -1,0 +1,23 @@
+# Timer_lab_Kunc
+# 2019-10-09 06:40:55Z
+
+# IO_2@[IOP=(3)][IoId=(2)] is reserved: SWDDebugEnabled
+dont_use_io iocell 3 2
+# IO_3@[IOP=(3)][IoId=(3)] is reserved: SWDDebugEnabled
+dont_use_io iocell 3 3
+set_location "ClockGenBlock" m0s8clockgenblockcell -1 -1 0
+set_location "ClockBlock" m0s8clockblockcell -1 -1 0
+set_io "\LCD_lol:LCDPort(0)\" iocell 2 0
+set_io "\LCD_lol:LCDPort(1)\" iocell 2 1
+set_io "\LCD_lol:LCDPort(2)\" iocell 2 2
+set_io "\LCD_lol:LCDPort(3)\" iocell 2 3
+set_io "\LCD_lol:LCDPort(4)\" iocell 2 4
+set_io "\LCD_lol:LCDPort(5)\" iocell 2 5
+set_io "\LCD_lol:LCDPort(6)\" iocell 2 6
+set_location "\Timer_lol:TimerUDB:status_tc\" 0 0 0 1
+set_location "\Timer_lol:TimerUDB:sCTRLReg:SyncCtl:ctrlreg\" 0 0 6
+set_location "\Timer_lol:TimerUDB:rstSts:stsreg\" 0 0 4
+set_location "\Timer_lol:TimerUDB:sT16:timerdp:u0\" 1 0 2
+set_location "\Timer_lol:TimerUDB:sT16:timerdp:u1\" 0 0 2
+set_location "isr_lol" interrupt -1 -1 0
+set_location "Net_11" 0 0 0 0

@@ -1,0 +1,7 @@
+C:\Program Files\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|407e3a95-d966-44e2-a64c-d087091d1ed0
+C:\Users\Student_2\Documents\PSoC Creator\4.2\Downloads ( 4.2).cylib\Downloads ( 4.2).cyprj|875eab27-3930-41e9-95cc-2e7cdd896c8d
+C:\Users\Student_2\Documents\PSoC Creator\4.1\Downloads ( 4.1).cylib\Downloads ( 4.1).cyprj|2f7738c9-200a-4f08-bbf3-c0dd3bb07ac9
+C:\Program Files\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|2832c31e-6ba6-41e5-8006-1734452787b5
+C:\Program Files\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|75406844-edb3-4685-bc33-d01482ddee2c
+C:\Program Files\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|ff8c4b7d-775a-423b-bd28-8014ea4276da
+C:\Users\Student_2\Desktop\Timer_lab\Timer_lab_Kunc.cydsn\Timer_lab_Kunc.cyprj|92659275-bac2-4f93-901a-2244bca128b0
