@@ -1,0 +1,10 @@
+# IDAC_lab
+# 2019-10-23 06:42:11Z
+
+# IO_2@[IOP=(3)][IoId=(2)] is reserved: SWDDebugEnabled
+dont_use_io iocell 3 2
+# IO_3@[IOP=(3)][IoId=(3)] is reserved: SWDDebugEnabled
+dont_use_io iocell 3 3
+set_location "ClockGenBlock" m0s8clockgenblockcell -1 -1 0
+set_io "Pin_IDAC(0)" iocell 3 0
+set_location "\IDAC:cy_psoc4_idac\" p4csidac8cell -1 -1 0

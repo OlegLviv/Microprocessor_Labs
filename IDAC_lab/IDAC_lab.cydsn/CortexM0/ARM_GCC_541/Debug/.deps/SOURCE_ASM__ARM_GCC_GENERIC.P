@@ -1,0 +1,8 @@
+C:/Users/Student_2/Desktop/Micro/IDAC_lab/IDAC_lab.cydsn/CortexM0/ARM_GCC_541/Debug/CyBootAsmGnu.o : C:/Users/Student_2/Desktop/Micro/IDAC_lab/IDAC_lab.cydsn/Generated_Source/PSoC4/CyBootAsmGnu.s C:/Users/Student_2/Desktop/Micro/IDAC_lab/IDAC_lab.cydsn/Generated_Source/PSoC4/cydevicegnu_trm.inc C:/Users/Student_2/Desktop/Micro/IDAC_lab/IDAC_lab.cydsn/Generated_Source/PSoC4/cyfittergnu.inc 
+
+C:/Users/Student_2/Desktop/Micro/IDAC_lab/IDAC_lab.cydsn/Generated_Source/PSoC4/CyBootAsmGnu.s : 
+
+C:/Users/Student_2/Desktop/Micro/IDAC_lab/IDAC_lab.cydsn/Generated_Source/PSoC4/cydevicegnu_trm.inc : 
+
+C:/Users/Student_2/Desktop/Micro/IDAC_lab/IDAC_lab.cydsn/Generated_Source/PSoC4/cyfittergnu.inc : 
+
