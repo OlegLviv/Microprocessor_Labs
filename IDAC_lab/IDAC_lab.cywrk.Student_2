@@ -13,7 +13,7 @@
 <v>Output</v>
 </TreeKeys>
 <TreeStates>
-<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="IDAC_lab\IDAC_lab\Source Files\main.c">
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="IDAC_lab\IDAC_lab\Generated_Source\PSoC4\Timer">
 <ExpandedNodeIds>
 <v>IDAC_lab</v>
 <v>IDAC_lab\IDAC_lab</v>
@@ -56,8 +56,14 @@
 <v>IDAC_lab\IDAC_lab\Generated_Source\PSoC4\Em_EEPROM_Dynamic</v>
 <v>IDAC_lab\IDAC_lab\Generated_Source\PSoC4\IDAC</v>
 <v>IDAC_lab\IDAC_lab\Generated_Source\PSoC4\isr</v>
+<v>IDAC_lab\IDAC_lab\Generated_Source\PSoC4\isr_start</v>
+<v>IDAC_lab\IDAC_lab\Generated_Source\PSoC4\isr_stop</v>
+<v>IDAC_lab\IDAC_lab\Generated_Source\PSoC4\LCD</v>
+<v>IDAC_lab\IDAC_lab\Generated_Source\PSoC4\LCD_LCDPort</v>
 <v>IDAC_lab\IDAC_lab\Generated_Source\PSoC4\Pin_IDAC</v>
+<v>IDAC_lab\IDAC_lab\Generated_Source\PSoC4\Pin_Start</v>
 <v>IDAC_lab\IDAC_lab\Generated_Source\PSoC4\Timer</v>
+<v>IDAC_lab\IDAC_lab\Generated_Source\PSoC4\Timer_Stop</v>
 <v>IDAC_lab\IDAC_lab\Generated_Source\PSoC4\cycodeshareexport.ld</v>
 <v>IDAC_lab\IDAC_lab\Generated_Source\PSoC4\cycodeshareimport.ld</v>
 <v>IDAC_lab\IDAC_lab\Generated_Source\PSoC4\cycodeshareimport.scat</v>
@@ -66,12 +72,6 @@
 <v>IDAC_lab\IDAC_lab\Generated_Source\PSoC4\cydeviceiar_trm.inc</v>
 <v>IDAC_lab\IDAC_lab\Generated_Source\PSoC4\cydevicerv_trm.inc</v>
 <v>IDAC_lab\IDAC_lab\Generated_Source\PSoC4\cydisabledsheets.h</v>
-<v>IDAC_lab\IDAC_lab\Generated_Source\PSoC4\cyfitter.h</v>
-<v>IDAC_lab\IDAC_lab\Generated_Source\PSoC4\cyfitter_cfg.c</v>
-<v>IDAC_lab\IDAC_lab\Generated_Source\PSoC4\cyfitter_cfg.h</v>
-<v>IDAC_lab\IDAC_lab\Generated_Source\PSoC4\cyfittergnu.inc</v>
-<v>IDAC_lab\IDAC_lab\Generated_Source\PSoC4\cyfitteriar.inc</v>
-<v>IDAC_lab\IDAC_lab\Generated_Source\PSoC4\cyfitterrv.inc</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 <CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
@@ -109,11 +109,21 @@
 <v>IDAC_lab\IDAC_lab\CortexM0\ARM_GCC_541\Debug\Listing Files\IDAC.lst</v>
 <v>IDAC_lab\IDAC_lab\CortexM0\ARM_GCC_541\Debug\Listing Files\IDAC_PM.lst</v>
 <v>IDAC_lab\IDAC_lab\CortexM0\ARM_GCC_541\Debug\Listing Files\isr.lst</v>
+<v>IDAC_lab\IDAC_lab\CortexM0\ARM_GCC_541\Debug\Listing Files\isr_start.lst</v>
+<v>IDAC_lab\IDAC_lab\CortexM0\ARM_GCC_541\Debug\Listing Files\isr_stop.lst</v>
+<v>IDAC_lab\IDAC_lab\CortexM0\ARM_GCC_541\Debug\Listing Files\LCD.lst</v>
+<v>IDAC_lab\IDAC_lab\CortexM0\ARM_GCC_541\Debug\Listing Files\LCD_LCDPort.lst</v>
+<v>IDAC_lab\IDAC_lab\CortexM0\ARM_GCC_541\Debug\Listing Files\LCD_LCDPort_PM.lst</v>
+<v>IDAC_lab\IDAC_lab\CortexM0\ARM_GCC_541\Debug\Listing Files\LCD_PM.lst</v>
 <v>IDAC_lab\IDAC_lab\CortexM0\ARM_GCC_541\Debug\Listing Files\main.lst</v>
 <v>IDAC_lab\IDAC_lab\CortexM0\ARM_GCC_541\Debug\Listing Files\Pin_IDAC.lst</v>
 <v>IDAC_lab\IDAC_lab\CortexM0\ARM_GCC_541\Debug\Listing Files\Pin_IDAC_PM.lst</v>
+<v>IDAC_lab\IDAC_lab\CortexM0\ARM_GCC_541\Debug\Listing Files\Pin_Start.lst</v>
+<v>IDAC_lab\IDAC_lab\CortexM0\ARM_GCC_541\Debug\Listing Files\Pin_Start_PM.lst</v>
 <v>IDAC_lab\IDAC_lab\CortexM0\ARM_GCC_541\Debug\Listing Files\Timer.lst</v>
 <v>IDAC_lab\IDAC_lab\CortexM0\ARM_GCC_541\Debug\Listing Files\Timer_PM.lst</v>
+<v>IDAC_lab\IDAC_lab\CortexM0\ARM_GCC_541\Debug\Listing Files\Timer_Stop.lst</v>
+<v>IDAC_lab\IDAC_lab\CortexM0\ARM_GCC_541\Debug\Listing Files\Timer_Stop_PM.lst</v>
 <v>IDAC_lab\IDAC_lab\CortexM0\ARM_GCC_541\Debug\IDAC_lab.elf</v>
 <v>IDAC_lab\IDAC_lab\CortexM0\ARM_GCC_541\Debug\IDAC_lab.hex</v>
 <v>IDAC_lab\IDAC_lab\CortexM0\ARM_GCC_541\Debug\IDAC_lab.map</v>
@@ -124,8 +134,42 @@
 <VisibleNodeIds>
 <v>IDAC_lab</v>
 <v>IDAC_lab\IDAC_lab</v>
-<v>IDAC_lab\IDAC_lab\IDAC_lab.rpt</v>
-<v>IDAC_lab\IDAC_lab\IDAC_lab_timing.html</v>
+<v>IDAC_lab\IDAC_lab\CortexM0</v>
+<v>IDAC_lab\IDAC_lab\CortexM0\ARM_GCC_541</v>
+<v>IDAC_lab\IDAC_lab\CortexM0\ARM_GCC_541\Debug</v>
+<v>IDAC_lab\IDAC_lab\CortexM0\ARM_GCC_541\Debug\Listing Files</v>
+<v>IDAC_lab\IDAC_lab\CortexM0\ARM_GCC_541\Debug\Listing Files\Cm0Start.lst</v>
+<v>IDAC_lab\IDAC_lab\CortexM0\ARM_GCC_541\Debug\Listing Files\cy_em_eeprom.lst</v>
+<v>IDAC_lab\IDAC_lab\CortexM0\ARM_GCC_541\Debug\Listing Files\CyBootAsmGnu.lst</v>
+<v>IDAC_lab\IDAC_lab\CortexM0\ARM_GCC_541\Debug\Listing Files\cyfitter_cfg.lst</v>
+<v>IDAC_lab\IDAC_lab\CortexM0\ARM_GCC_541\Debug\Listing Files\CyFlash.lst</v>
+<v>IDAC_lab\IDAC_lab\CortexM0\ARM_GCC_541\Debug\Listing Files\CyLFClk.lst</v>
+<v>IDAC_lab\IDAC_lab\CortexM0\ARM_GCC_541\Debug\Listing Files\CyLib.lst</v>
+<v>IDAC_lab\IDAC_lab\CortexM0\ARM_GCC_541\Debug\Listing Files\cymetadata.lst</v>
+<v>IDAC_lab\IDAC_lab\CortexM0\ARM_GCC_541\Debug\Listing Files\cyPm.lst</v>
+<v>IDAC_lab\IDAC_lab\CortexM0\ARM_GCC_541\Debug\Listing Files\cyutils.lst</v>
+<v>IDAC_lab\IDAC_lab\CortexM0\ARM_GCC_541\Debug\Listing Files\IDAC.lst</v>
+<v>IDAC_lab\IDAC_lab\CortexM0\ARM_GCC_541\Debug\Listing Files\IDAC_PM.lst</v>
+<v>IDAC_lab\IDAC_lab\CortexM0\ARM_GCC_541\Debug\Listing Files\isr.lst</v>
+<v>IDAC_lab\IDAC_lab\CortexM0\ARM_GCC_541\Debug\Listing Files\isr_start.lst</v>
+<v>IDAC_lab\IDAC_lab\CortexM0\ARM_GCC_541\Debug\Listing Files\isr_stop.lst</v>
+<v>IDAC_lab\IDAC_lab\CortexM0\ARM_GCC_541\Debug\Listing Files\LCD.lst</v>
+<v>IDAC_lab\IDAC_lab\CortexM0\ARM_GCC_541\Debug\Listing Files\LCD_LCDPort.lst</v>
+<v>IDAC_lab\IDAC_lab\CortexM0\ARM_GCC_541\Debug\Listing Files\LCD_LCDPort_PM.lst</v>
+<v>IDAC_lab\IDAC_lab\CortexM0\ARM_GCC_541\Debug\Listing Files\LCD_PM.lst</v>
+<v>IDAC_lab\IDAC_lab\CortexM0\ARM_GCC_541\Debug\Listing Files\main.lst</v>
+<v>IDAC_lab\IDAC_lab\CortexM0\ARM_GCC_541\Debug\Listing Files\Pin_IDAC.lst</v>
+<v>IDAC_lab\IDAC_lab\CortexM0\ARM_GCC_541\Debug\Listing Files\Pin_IDAC_PM.lst</v>
+<v>IDAC_lab\IDAC_lab\CortexM0\ARM_GCC_541\Debug\Listing Files\Pin_Start.lst</v>
+<v>IDAC_lab\IDAC_lab\CortexM0\ARM_GCC_541\Debug\Listing Files\Pin_Start_PM.lst</v>
+<v>IDAC_lab\IDAC_lab\CortexM0\ARM_GCC_541\Debug\Listing Files\Timer.lst</v>
+<v>IDAC_lab\IDAC_lab\CortexM0\ARM_GCC_541\Debug\Listing Files\Timer_PM.lst</v>
+<v>IDAC_lab\IDAC_lab\CortexM0\ARM_GCC_541\Debug\Listing Files\Timer_Stop.lst</v>
+<v>IDAC_lab\IDAC_lab\CortexM0\ARM_GCC_541\Debug\Listing Files\Timer_Stop_PM.lst</v>
+<v>IDAC_lab\IDAC_lab\CortexM0\ARM_GCC_541\Debug\IDAC_lab.elf</v>
+<v>IDAC_lab\IDAC_lab\CortexM0\ARM_GCC_541\Debug\IDAC_lab.hex</v>
+<v>IDAC_lab\IDAC_lab\CortexM0\ARM_GCC_541\Debug\IDAC_lab.map</v>
+<v>IDAC_lab\IDAC_lab\IDAC_lab.gpdsc</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 </TreeStates>
@@ -142,12 +186,18 @@
 <v>IDAC_lab\IDAC_lab\System Reference Guides</v>
 <v>IDAC_lab\IDAC_lab\System Reference Guides\cy_boot_v5_80</v>
 <v>IDAC_lab\IDAC_lab\System Reference Guides\cy_lfclk_v1_20</v>
-<v>IDAC_lab\IDAC_lab\cy_clock_v2_20.pdf</v>
-<v>IDAC_lab\IDAC_lab\cy_isr_v1_70.pdf</v>
-<v>IDAC_lab\IDAC_lab\cy_pins_v2_20.pdf</v>
+<v>IDAC_lab\IDAC_lab\CharLCD_v2_20.pdf</v>
+<v>IDAC_lab\IDAC_lab\cy_clock_v2_20</v>
+<v>IDAC_lab\IDAC_lab\cy_clock_v2_20\cy_clock_v2_20.pdf</v>
+<v>IDAC_lab\IDAC_lab\cy_isr_v1_70</v>
+<v>IDAC_lab\IDAC_lab\cy_isr_v1_70\cy_isr_v1_70.pdf</v>
+<v>IDAC_lab\IDAC_lab\cy_pins_v2_20</v>
+<v>IDAC_lab\IDAC_lab\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
 <v>IDAC_lab\IDAC_lab\IDAC_P4_v1_10.pdf</v>
-<v>IDAC_lab\IDAC_lab\Timer_v2_80.pdf</v>
-<v>IDAC_lab\IDAC_lab\ZeroTerminal.pdf</v>
+<v>IDAC_lab\IDAC_lab\Timer_v2_80</v>
+<v>IDAC_lab\IDAC_lab\Timer_v2_80\Timer_v2_80.pdf</v>
+<v>IDAC_lab\IDAC_lab\ZeroTerminal</v>
+<v>IDAC_lab\IDAC_lab\ZeroTerminal\ZeroTerminal.pdf</v>
 </ExpandedNodeIds>
 <VisibleNodeIds>
 <v>IDAC_lab</v>
@@ -157,12 +207,18 @@
 <v>IDAC_lab\IDAC_lab\System Reference Guides</v>
 <v>IDAC_lab\IDAC_lab\System Reference Guides\cy_boot_v5_80</v>
 <v>IDAC_lab\IDAC_lab\System Reference Guides\cy_lfclk_v1_20</v>
-<v>IDAC_lab\IDAC_lab\cy_clock_v2_20.pdf</v>
-<v>IDAC_lab\IDAC_lab\cy_isr_v1_70.pdf</v>
-<v>IDAC_lab\IDAC_lab\cy_pins_v2_20.pdf</v>
+<v>IDAC_lab\IDAC_lab\CharLCD_v2_20.pdf</v>
+<v>IDAC_lab\IDAC_lab\cy_clock_v2_20</v>
+<v>IDAC_lab\IDAC_lab\cy_clock_v2_20\cy_clock_v2_20.pdf</v>
+<v>IDAC_lab\IDAC_lab\cy_isr_v1_70</v>
+<v>IDAC_lab\IDAC_lab\cy_isr_v1_70\cy_isr_v1_70.pdf</v>
+<v>IDAC_lab\IDAC_lab\cy_pins_v2_20</v>
+<v>IDAC_lab\IDAC_lab\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
 <v>IDAC_lab\IDAC_lab\IDAC_P4_v1_10.pdf</v>
-<v>IDAC_lab\IDAC_lab\Timer_v2_80.pdf</v>
-<v>IDAC_lab\IDAC_lab\ZeroTerminal.pdf</v>
+<v>IDAC_lab\IDAC_lab\Timer_v2_80</v>
+<v>IDAC_lab\IDAC_lab\Timer_v2_80\Timer_v2_80.pdf</v>
+<v>IDAC_lab\IDAC_lab\ZeroTerminal</v>
+<v>IDAC_lab\IDAC_lab\ZeroTerminal\ZeroTerminal.pdf</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 </TreeStatesV2>
@@ -171,7 +227,18 @@
 </userData>
 </CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997>
 <Unloaded />
-<OpenDocs />
+<OpenDocs>
+<name v=".\IDAC_lab.cydsn\TopDesign\TopDesign.cysch" />
+<name v=".\IDAC_lab.cydsn\IDAC_lab.cydwr" />
+<name v=".\IDAC_lab.cydsn\main.c" />
+</OpenDocs>
+<OpenDocsLayout><![CDATA[<?xml version="1.0"?><!--
+
+  Actipro Docking/MDI for WinForms
+  Copyright (c) 2001-2016 Actipro Software LLC.  All rights reserved.
+  http://www.actiprosoftware.com
+
+--><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1312, 513" SelectedTabbedMdiWindow="685ac93a-6a28-4db9-8673-5177ff21251d"><DocumentWindow Key="C:\Users\Student_2\Desktop\Micro\IDAC_lab\IDAC_lab.cydsn\TopDesign\TopDesign.cysch" Guid="5b163315-c2aa-4a28-90d0-a6bb8516d689" /><DocumentWindow Key="C:\Users\Student_2\Desktop\Micro\IDAC_lab\IDAC_lab.cydsn\IDAC_lab.cydwr" Guid="698776be-41fe-43a3-a7ad-b3808f3fc82f" /><DocumentWindow Key="C:\Users\Student_2\Desktop\Micro\IDAC_lab\IDAC_lab.cydsn\main.c" Guid="685ac93a-6a28-4db9-8673-5177ff21251d" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
 <config v="" />
 <AutoUpdate v="true" />
 </CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>

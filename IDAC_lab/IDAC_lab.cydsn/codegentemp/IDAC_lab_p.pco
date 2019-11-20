@@ -1,16 +1,32 @@
 dont_use_io iocell 3 2
 dont_use_io iocell 3 3
-set_location "\Timer:TimerUDB:rstSts:stsreg\" statusicell 0 0 4 
-set_location "Net_9" macrocell 0 0 1 1
-set_location "\Timer:TimerUDB:status_tc\" macrocell 0 0 1 0
-set_location "__ONE__" macrocell 1 1 0 0
-set_location "\Timer:TimerUDB:sT16:timerdp:u0\" datapathcell 1 0 2 
-set_location "\Timer:TimerUDB:sT16:timerdp:u1\" datapathcell 0 0 2 
+set_location "\Timer_Stop:TimerUDB:rstSts:stsreg\" statusicell 0 0 4 
+set_location "Net_27" macrocell 0 0 1 1
+set_location "\Timer_Stop:TimerUDB:status_tc\" macrocell 0 0 1 0
+set_location "Net_9" macrocell 1 1 0 0
+set_location "__ONE__" macrocell 0 0 1 2
+set_location "\Timer_Stop:TimerUDB:sT16:timerdp:u0\" datapathcell 1 0 2 
+set_location "\Timer:TimerUDB:sT16:timerdp:u1\" datapathcell 1 1 2 
+set_location "\Timer:TimerUDB:status_tc\" macrocell 1 1 0 1
+set_location "\Timer:TimerUDB:sT16:timerdp:u0\" datapathcell 0 1 2 
+set_location "\Timer_Stop:TimerUDB:sT16:timerdp:u1\" datapathcell 0 0 2 
+set_location "\Timer:TimerUDB:rstSts:stsreg\" statusicell 1 1 4 
+set_io "\LCD:LCDPort(6)\" iocell 2 6
+set_io "\LCD:LCDPort(5)\" iocell 2 5
+set_io "\LCD:LCDPort(3)\" iocell 2 3
+set_io "\LCD:LCDPort(4)\" iocell 2 4
+set_location "\Timer:TimerUDB:sCTRLReg:SyncCtl:ctrlreg\" controlcell 1 1 6 
 set_location "ClockBlock" m0s8clockblockcell -1 -1 0
 set_location "isr" interrupt -1 -1 0
+set_location "isr_stop" interrupt -1 -1 3
+set_location "isr_start" interrupt -1 -1 2
 set_location "ClockGenBlock" m0s8clockgenblockcell -1 -1 0
-set_location "ClockBlock_LFClk__SYNC_1" synccell 1 1 5 0
-set_location "ClockBlock_LFClk__SYNC" synccell 1 1 5 1
-set_location "\Timer:TimerUDB:sCTRLReg:SyncCtl:ctrlreg\" controlcell 1 0 6 
+set_location "ClockBlock_LFClk__SYNC_1" synccell 0 1 5 0
+set_location "ClockBlock_LFClk__SYNC" synccell 0 1 5 1
+set_location "\Timer_Stop:TimerUDB:sCTRLReg:SyncCtl:ctrlreg\" controlcell 1 0 6 
+set_io "Pin_Start(0)" iocell 1 0
+set_io "\LCD:LCDPort(0)\" iocell 2 0
 set_io "Pin_IDAC(0)" iocell 3 0
 set_location "\IDAC:cy_psoc4_idac\" p4csidac8cell -1 -1 0
+set_io "\LCD:LCDPort(2)\" iocell 2 2
+set_io "\LCD:LCDPort(1)\" iocell 2 1

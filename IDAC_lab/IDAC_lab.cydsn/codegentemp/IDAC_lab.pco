@@ -1,5 +1,5 @@
 # IDAC_lab
-# 2019-10-23 06:42:14Z
+# 2019-11-20 08:03:09Z
 
 # IO_2@[IOP=(3)][IoId=(2)] is reserved: SWDDebugEnabled
 dont_use_io iocell 3 2
@@ -8,14 +8,30 @@ dont_use_io iocell 3 3
 set_location "ClockGenBlock" m0s8clockgenblockcell -1 -1 0
 set_location "ClockBlock" m0s8clockblockcell -1 -1 0
 set_io "Pin_IDAC(0)" iocell 3 0
-set_location "\Timer:TimerUDB:status_tc\" 0 0 1 0
+set_io "\LCD:LCDPort(0)\" iocell 2 0
+set_io "\LCD:LCDPort(1)\" iocell 2 1
+set_io "\LCD:LCDPort(2)\" iocell 2 2
+set_io "\LCD:LCDPort(3)\" iocell 2 3
+set_io "\LCD:LCDPort(4)\" iocell 2 4
+set_io "\LCD:LCDPort(5)\" iocell 2 5
+set_io "\LCD:LCDPort(6)\" iocell 2 6
+set_io "Pin_Start(0)" iocell 1 0
+set_location "\Timer:TimerUDB:status_tc\" 1 1 0 1
+set_location "\Timer_Stop:TimerUDB:status_tc\" 0 0 1 0
 set_location "\IDAC:cy_psoc4_idac\" p4csidac8cell -1 -1 0
-set_location "__ONE__" 1 1 0 0
-set_location "\Timer:TimerUDB:sCTRLReg:SyncCtl:ctrlreg\" 1 0 6
-set_location "\Timer:TimerUDB:rstSts:stsreg\" 0 0 4
-set_location "\Timer:TimerUDB:sT16:timerdp:u0\" 1 0 2
-set_location "\Timer:TimerUDB:sT16:timerdp:u1\" 0 0 2
+set_location "__ONE__" 0 0 1 2
+set_location "\Timer:TimerUDB:sCTRLReg:SyncCtl:ctrlreg\" 1 1 6
+set_location "\Timer:TimerUDB:rstSts:stsreg\" 1 1 4
+set_location "\Timer:TimerUDB:sT16:timerdp:u0\" 0 1 2
+set_location "\Timer:TimerUDB:sT16:timerdp:u1\" 1 1 2
 set_location "isr" interrupt -1 -1 0
-set_location "Net_9" 0 0 1 1
-set_location "ClockBlock_LFClk__SYNC_1" 1 1 5 0
-set_location "ClockBlock_LFClk__SYNC" 1 1 5 1
+set_location "isr_start" interrupt -1 -1 2
+set_location "\Timer_Stop:TimerUDB:sCTRLReg:SyncCtl:ctrlreg\" 1 0 6
+set_location "\Timer_Stop:TimerUDB:rstSts:stsreg\" 0 0 4
+set_location "\Timer_Stop:TimerUDB:sT16:timerdp:u0\" 1 0 2
+set_location "\Timer_Stop:TimerUDB:sT16:timerdp:u1\" 0 0 2
+set_location "isr_stop" interrupt -1 -1 3
+set_location "Net_9" 1 1 0 0
+set_location "Net_27" 0 0 1 1
+set_location "ClockBlock_LFClk__SYNC_1" 0 1 5 0
+set_location "ClockBlock_LFClk__SYNC" 0 1 5 1

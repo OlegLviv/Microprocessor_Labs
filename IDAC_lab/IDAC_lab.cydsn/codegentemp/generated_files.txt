@@ -25,6 +25,24 @@
   <file name="C:\Users\Student_2\Desktop\Micro\IDAC_lab\IDAC_lab.cydsn\codegentemp\Timer_PM.c" value="SOURCE_C;CortexM0;;;;Timer" />
   <file name="C:\Users\Student_2\Desktop\Micro\IDAC_lab\IDAC_lab.cydsn\codegentemp\isr.c" value="SOURCE_C;CortexM0;;;;isr" />
   <file name="C:\Users\Student_2\Desktop\Micro\IDAC_lab\IDAC_lab.cydsn\codegentemp\isr.h" value="HEADER;;;;;isr" />
+  <file name="C:\Users\Student_2\Desktop\Micro\IDAC_lab\IDAC_lab.cydsn\codegentemp\LCD.c" value="SOURCE_C;CortexM0;;;;LCD" />
+  <file name="C:\Users\Student_2\Desktop\Micro\IDAC_lab\IDAC_lab.cydsn\codegentemp\LCD.h" value="HEADER;;;;;LCD" />
+  <file name="C:\Users\Student_2\Desktop\Micro\IDAC_lab\IDAC_lab.cydsn\codegentemp\LCD_PM.c" value="SOURCE_C;CortexM0;;;;LCD" />
+  <file name="C:\Users\Student_2\Desktop\Micro\IDAC_lab\IDAC_lab.cydsn\codegentemp\Pin_Start.c" value="SOURCE_C;CortexM0;;;;Pin_Start" />
+  <file name="C:\Users\Student_2\Desktop\Micro\IDAC_lab\IDAC_lab.cydsn\codegentemp\Pin_Start.h" value="HEADER;;;;;Pin_Start" />
+  <file name="C:\Users\Student_2\Desktop\Micro\IDAC_lab\IDAC_lab.cydsn\codegentemp\Pin_Start_aliases.h" value="HEADER;;;;;Pin_Start" />
+  <file name="C:\Users\Student_2\Desktop\Micro\IDAC_lab\IDAC_lab.cydsn\codegentemp\Pin_Start_PM.c" value="SOURCE_C;CortexM0;;;;Pin_Start" />
+  <file name="C:\Users\Student_2\Desktop\Micro\IDAC_lab\IDAC_lab.cydsn\codegentemp\isr_start.c" value="SOURCE_C;CortexM0;;;;isr_start" />
+  <file name="C:\Users\Student_2\Desktop\Micro\IDAC_lab\IDAC_lab.cydsn\codegentemp\isr_start.h" value="HEADER;;;;;isr_start" />
+  <file name="C:\Users\Student_2\Desktop\Micro\IDAC_lab\IDAC_lab.cydsn\codegentemp\Timer_Stop.c" value="SOURCE_C;CortexM0;;;;Timer_Stop" />
+  <file name="C:\Users\Student_2\Desktop\Micro\IDAC_lab\IDAC_lab.cydsn\codegentemp\Timer_Stop.h" value="HEADER;;;;;Timer_Stop" />
+  <file name="C:\Users\Student_2\Desktop\Micro\IDAC_lab\IDAC_lab.cydsn\codegentemp\Timer_Stop_PM.c" value="SOURCE_C;CortexM0;;;;Timer_Stop" />
+  <file name="C:\Users\Student_2\Desktop\Micro\IDAC_lab\IDAC_lab.cydsn\codegentemp\isr_stop.c" value="SOURCE_C;CortexM0;;;;isr_stop" />
+  <file name="C:\Users\Student_2\Desktop\Micro\IDAC_lab\IDAC_lab.cydsn\codegentemp\isr_stop.h" value="HEADER;;;;;isr_stop" />
+  <file name="C:\Users\Student_2\Desktop\Micro\IDAC_lab\IDAC_lab.cydsn\codegentemp\LCD_LCDPort.c" value="SOURCE_C;CortexM0;;;;LCD_LCDPort" />
+  <file name="C:\Users\Student_2\Desktop\Micro\IDAC_lab\IDAC_lab.cydsn\codegentemp\LCD_LCDPort.h" value="HEADER;;;;;LCD_LCDPort" />
+  <file name="C:\Users\Student_2\Desktop\Micro\IDAC_lab\IDAC_lab.cydsn\codegentemp\LCD_LCDPort_aliases.h" value="HEADER;;;;;LCD_LCDPort" />
+  <file name="C:\Users\Student_2\Desktop\Micro\IDAC_lab\IDAC_lab.cydsn\codegentemp\LCD_LCDPort_PM.c" value="SOURCE_C;CortexM0;;;;LCD_LCDPort" />
   <file name="C:\Users\Student_2\Desktop\Micro\IDAC_lab\IDAC_lab.cydsn\codegentemp\cy_em_eeprom.c" value="SOURCE_C;CortexM0;;;;Em_EEPROM_Dynamic" />
   <file name="C:\Users\Student_2\Desktop\Micro\IDAC_lab\IDAC_lab.cydsn\codegentemp\cy_em_eeprom.h" value="HEADER;;;;;Em_EEPROM_Dynamic" />
   <file name="C:\Users\Student_2\Desktop\Micro\IDAC_lab\IDAC_lab.cydsn\codegentemp\cm0gcc.ld" value="LINKER_SCRIPT;;;b98f980c-3bd1-4fc7-a887-c56a20a46fdd;;cy_boot" />
