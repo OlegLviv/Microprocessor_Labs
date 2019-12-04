@@ -1,6 +1,6 @@
 (DELAYFILE
  (SDFVERSION "IEEE 1497 4.0")
- (DATE "2019-11-20T08:03:10Z")
+ (DATE "2019-12-04T06:59:18Z")
  (DESIGN "IDAC_lab")
  (VENDOR "Cypress Semiconductor")
  (PROGRAM "PSoC Creator")
@@ -101,6 +101,7 @@
     (INTERCONNECT \\LCD\:LCDPort\(5\)_PAD\\ \\LCD\:LCDPort\(5\)\\.pad_in (0.000:0.000:0.000))
     (INTERCONNECT \\LCD\:LCDPort\(6\)_PAD\\ \\LCD\:LCDPort\(6\)\\.pad_in (0.000:0.000:0.000))
     (INTERCONNECT Pin_Start\(0\)_PAD Pin_Start\(0\).pad_in (0.000:0.000:0.000))
+    (INTERCONNECT Pin_Mode\(0\)_PAD Pin_Mode\(0\).pad_in (0.000:0.000:0.000))
    )
   )
  )

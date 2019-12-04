@@ -12,6 +12,7 @@
   <Group key="DWRInstGuidMapping">
     <Group key="Pin">
       <Data key="8d318d8b-cf7b-4b6b-b02c-ab1c5c49d0ba" value="Pin_Start" />
+      <Data key="99166c4b-a9eb-4cc9-8323-aafdc19147b4" value="Pin_Mode" />
       <Data key="77715107-f8d5-47e5-a629-0fb83101ac6b" value="Pin_IDAC" />
       <Data key="f0000a88-5d36-4e76-8d85-467748ff3400/ed092b9b-d398-4703-be89-cebf998501f6" value="LCD_LCDPort" />
     </Group>
@@ -1226,6 +1227,11 @@
     <Group key="8d318d8b-cf7b-4b6b-b02c-ab1c5c49d0ba">
       <Group key="0">
         <Data key="Port Format" value="1,0" />
+      </Group>
+    </Group>
+    <Group key="99166c4b-a9eb-4cc9-8323-aafdc19147b4">
+      <Group key="0">
+        <Data key="Port Format" value="1,1" />
       </Group>
     </Group>
     <Group key="77715107-f8d5-47e5-a629-0fb83101ac6b">

@@ -29,6 +29,8 @@
 #include "isr_start.h"
 #include "Timer_Stop.h"
 #include "isr_stop.h"
+#include "Pin_Mode.h"
+#include "Pin_Mode_aliases.h"
 #include "LCD_LCDPort.h"
 #include "LCD_LCDPort_aliases.h"
 #include "cy_em_eeprom.h"

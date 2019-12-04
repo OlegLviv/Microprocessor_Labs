@@ -115,6 +115,10 @@
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Timer_Stop_PM.c</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\isr_stop.c</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\isr_stop.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Pin_Mode.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Pin_Mode.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Pin_Mode_aliases.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Pin_Mode_PM.c</File>
         </Files>
       </Folder>
       <Folder BuildType="EXCLUDE" Path=".\codegentemp">

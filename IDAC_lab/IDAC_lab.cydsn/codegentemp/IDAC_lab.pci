@@ -1,5 +1,5 @@
 # IDAC_lab
-# 2019-11-20 08:03:07Z
+# 2019-12-04 06:59:14Z
 
 # IO_2@[IOP=(3)][IoId=(2)] is reserved: SWDDebugEnabled
 dont_use_io iocell 3 2
@@ -15,4 +15,5 @@ set_io "\LCD:LCDPort(4)\" iocell 2 4
 set_io "\LCD:LCDPort(5)\" iocell 2 5
 set_io "\LCD:LCDPort(6)\" iocell 2 6
 set_io "Pin_Start(0)" iocell 1 0
+set_io "Pin_Mode(0)" iocell 1 1
 set_location "\IDAC:cy_psoc4_idac\" p4csidac8cell -1 -1 0

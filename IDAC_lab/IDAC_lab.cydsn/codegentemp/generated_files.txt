@@ -39,6 +39,10 @@
   <file name="C:\Users\Student_2\Desktop\Micro\IDAC_lab\IDAC_lab.cydsn\codegentemp\Timer_Stop_PM.c" value="SOURCE_C;CortexM0;;;;Timer_Stop" />
   <file name="C:\Users\Student_2\Desktop\Micro\IDAC_lab\IDAC_lab.cydsn\codegentemp\isr_stop.c" value="SOURCE_C;CortexM0;;;;isr_stop" />
   <file name="C:\Users\Student_2\Desktop\Micro\IDAC_lab\IDAC_lab.cydsn\codegentemp\isr_stop.h" value="HEADER;;;;;isr_stop" />
+  <file name="C:\Users\Student_2\Desktop\Micro\IDAC_lab\IDAC_lab.cydsn\codegentemp\Pin_Mode.c" value="SOURCE_C;CortexM0;;;;Pin_Mode" />
+  <file name="C:\Users\Student_2\Desktop\Micro\IDAC_lab\IDAC_lab.cydsn\codegentemp\Pin_Mode.h" value="HEADER;;;;;Pin_Mode" />
+  <file name="C:\Users\Student_2\Desktop\Micro\IDAC_lab\IDAC_lab.cydsn\codegentemp\Pin_Mode_aliases.h" value="HEADER;;;;;Pin_Mode" />
+  <file name="C:\Users\Student_2\Desktop\Micro\IDAC_lab\IDAC_lab.cydsn\codegentemp\Pin_Mode_PM.c" value="SOURCE_C;CortexM0;;;;Pin_Mode" />
   <file name="C:\Users\Student_2\Desktop\Micro\IDAC_lab\IDAC_lab.cydsn\codegentemp\LCD_LCDPort.c" value="SOURCE_C;CortexM0;;;;LCD_LCDPort" />
   <file name="C:\Users\Student_2\Desktop\Micro\IDAC_lab\IDAC_lab.cydsn\codegentemp\LCD_LCDPort.h" value="HEADER;;;;;LCD_LCDPort" />
   <file name="C:\Users\Student_2\Desktop\Micro\IDAC_lab\IDAC_lab.cydsn\codegentemp\LCD_LCDPort_aliases.h" value="HEADER;;;;;LCD_LCDPort" />
